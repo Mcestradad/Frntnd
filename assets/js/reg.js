@@ -18,7 +18,7 @@ window.onload = function () {
 }
 function evaluar() {
     if (txt_contraseña.value != txt_confirmarcontra.value) {
-        console.log("contraseñas diferentes");
+        console.log("comparación errada");
     } else {
         var usuario = {
             nombre: txt_nombre.value,
@@ -47,5 +47,5 @@ function abrirVentana() {
 }
 
 function cerrarVentana(evento) {
-    location.href = "logeo.html";
+    location.href = "login.html";
 }

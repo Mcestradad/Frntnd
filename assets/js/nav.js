@@ -8,10 +8,10 @@ window.onload = function () {
 }
 
 function login() {
-    let url = "logeo.html"
+    let url = "login.html"
     location.href = url;
 }
 function register() {
-    let url = "registro.html"
+    let url = "reg.html"
     location.href = url;
 }

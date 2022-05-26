@@ -33,7 +33,7 @@ function asignarNavegacion() {
     menu_items.push(document.getElementById("item_3"));
     menu_items.push(document.getElementById("item_4"));
 
-    paginas["item_1"] = "home.html";
+    paginas["item_1"] = "index2.html";
     paginas["item_2"] = "about.html";
     paginas["item_3"] = "contact.html";
     paginas["item_4"] = "flex.html";
