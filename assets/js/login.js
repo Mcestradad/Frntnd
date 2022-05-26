@@ -20,5 +20,5 @@ function abrirVentana() {
 }
 
 function cerrarVentana() {
-    location.href = "index2.html";
+    location.href = "index.html";
 }
