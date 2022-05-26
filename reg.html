@@ -14,8 +14,8 @@
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
-    <link rel="stylesheet" href="assets/css/btn_wpp.css">
-    <link rel="stylesheet" href="assets/css/registro.css">
+    <link rel="stylesheet" href="assets/css/wpp.css">
+    <link rel="stylesheet" href="assets/css/reg.css">
 </head>
 <body>
     <header id="site-header" class="fixed-top">
@@ -77,28 +77,28 @@
     <div class="registro">
         <form class="formulario" id="formulario" action="">
             <label for="">
-                <p>Nombre:</p> <input type="text" placeholder="Ingresa Nombre" id="nombre" required>
+                <p>Nombre:</p> <input type="text" placeholder="Nombre" id="nombre" required>
             </label>
             <br><br>
             <label for="">
-                <p>Apellido:</p><input type="text" placeholder="Ingresa Apellido" id="apellido" required>
+                <p>Apellido:</p><input type="text" placeholder="Apellido" id="apellido" required>
             </label>
             <br><br>
             <label for="">
                 <p>Correo:</p>
-                <input type="email" placeholder="Ingresa Correo electrónico" id="correo" required>
+                <input type="email" placeholder="e-mail" id="correo" required>
             </label>
             <br><br>
             <label for="">
-                <p>Celular:</p><input type="number" placeholder="Ingresa Celular" id="celular" pattern="[0-9]+" required>
+                <p>Celular:</p><input type="number" placeholder="Celular" id="celular" pattern="[0-9]+" required>
             </label>
             <br><br>
             <label for="">
-                <p>Usuario:</p><input type="text" placeholder="Ingresa Usuario" id="usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{3,10}$" title="Un nombre de usuario apropiado debe comenzar con una letra, contener letras, números, guiones bajos y puntos, y tener entre 3 y 15 caracteres de longitud" required>
+                <p>Usuario:</p><input type="text" placeholder="Usuario" id="usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{3,10}$" title="Un nombre de usuario apropiado debe comenzar con una letra, contener letras, números, guiones bajos y puntos, y tener entre 3 y 15 caracteres de longitud" required>
             </label>
             <br><br>
             <label for="">
-                <p>Contraseña:</p><input type="password" placeholder="Ingresa contraseña" id="contraseña" pattern="[a-zA-Z0-9]{6,15}" title="Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres" required>
+                <p>Contraseña:</p><input type="password" placeholder="contraseña" id="contraseña" pattern="[a-zA-Z0-9]{6,15}" title="Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres" required>
             </label>
             <br><br>
             <label for="">
@@ -109,15 +109,14 @@
                 <input type="button" value="Enviar datos" id="enviar">
             </label>
         </form>
-        <div class="registro_tarjeta">
-        </div>
+        
 
     </div>
     <div id="ventana" class="ligthbox hidden">
         <div class="contenido-ventana">
-            <h1>¡Registro completado!</h1>
-            <p>Ya puedes ingresar al sitio iniciando sesión</p>
-            <button type="button" id="btn_cerrar_modal">Ok</button>
+            <h1>Enhorabuena</h1>
+            <p>Inicia Sesión</p>
+            <button type="button" id="btn_cerrar_modal">Entendido</button>
         </div>
     </div>
 
@@ -132,21 +131,21 @@
                 <div class="row footer-top-29 pt-lg-5 pt-sm-4">
                     <div class="col-lg-3 col-sm-6">
                         <div class="address-grid">
-                            <h5>Calle 102 #76 C 13, Antioquia, Colombia, <br> Medellín.</h5>
-                            <h5 class="mt-sm-5 mt-4">Everyday: <span> 8 AM - 11 PM</span></h5><br>
-                            <h5>John Andersson Cardenas Quirós - Creador</h5>
+                            <h5>Medellín.</h5>
+                            <h5 class="mt-sm-5 mt-4">Everyday: <span> 6 AM - 11 PM</span></h5><br>
+                            <h5>Maria Clara Estrada</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
                         <div class="address-grid">
                             <h5>Celular</h5>
-                            <h5 class="phone-number-text mt-2"><a href="tel:+573217475876">+573217475876</a></h5>
+                            <h5 class="phone-number-text mt-2"><a href="tel:+573217475876">+57 310 441 0896</a></h5>
                         </div>
                         <div class="address-grid mt-sm-5 mt-4">
                             <h5>Correo</h5>
                             <h5 class="email-cont-text mt-1">
-                                <a href="mailto:a.cardenas.quiros@gmail.com"
-                                   class="mail">a.cardenas.quiros@gmail.com  &&  john.cardenasq@upb.edu.co</a>
+                                <a href="mailto:maria.estradada@upb.edu.co"
+                                   class="mail">maria.estradada@upb.edu.co</a>
                             </h5>
                         </div>
                     </div>
@@ -155,7 +154,6 @@
                             <h5 class="mb-4 pb-lg-2">Links de soporte</h5>
                             <ul>
                                 <li><a href="contact.html">Contactanos</a></li>
-                                <li><a href="https://github.com/Andercq17">GitHub</a></li>
                             </ul>
                         </div>
                     </div>
@@ -171,7 +169,7 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/registro.js"></script>
+    <script src="assets/js/reg.js"></script>
     <script src="assets/js/md5.min.js"></script>
 </body>
 
